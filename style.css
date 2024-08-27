@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root
+{
+    --colorPrimario: #E5E5E5; 
+    --colorSecundario: #0A3871;   
+
+    --fuenteKrona: 'Krona One', sans-serif;
+}
+
+*
+{
+    background: var(--colorPrimario);
+    font-family: var(--fuenteKrona);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.logo_alura
+{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 8%;
+}
+
+main
+{
+     display: flex;
+     margin-bottom: 50px;
+     margin-left: 80px;
+}
+
+.texto_ingresa
+{
+    border: none;
+    color: var(--colorSecundario);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+.texto_ingresa::placeholder
+{
+    color: var(--colorSecundario);    
+}
+
+.texto_ingresa:focus
+{
+    outline: none;
+}
+
+.texto_encriptado
+{
+    background: whitesmoke;
+    background-image: url("./assets/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--colorSecundario);
+    margin-left: 140px;
+    margin-top: 1px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.texto_encriptado:focus
+{
+    outline: none;
+}
+
+.texto_encriptado::placeholder
+{
+    color: var(--colorSecundario); 
+    padding-top: 320px; 
+    text-align: center;  
+    font-size: 14px;
+}
+
+.botones
+{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton_desencriptar
+{
+    background: #D8DFE8;
+    border: 1px solid var(--colorSecundario);
+    border-radius: 24px;
+    color: var(--colorSecundario);
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.boton_encriptar
+{
+    background: var(--colorSecundario);
+    border: 1px solid var(--colorSecundario);
+    border-radius: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.boton_copiar
+{
+    background: var(--colorSecundario);
+    border: 1px solid var(--colorSecundario);
+    border-radius: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 456px;
+    position: absolute;
+    width: 300px;
+}
+
+.advertencia
+{
+    color: #495057;
+    font-size: 14px;
+}
+
+.footer
+{
+    background-color: var(--colorPrimario);
+    padding: 1px;
+    color: #0A3871;
+    text-align: center;
+    font-family: var(--fuenteKrona);
+    font-size: 0.5rem;
+    font-weight: 150;
+}

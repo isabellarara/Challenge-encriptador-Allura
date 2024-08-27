@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "style.css"> 
+    <title>Encriptador Isabel Ramírez</title>
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="./assets/Frame 6.png" alt="logo de alura Latam">
+    </header>
+    <main>
+        <section> 
+            <textarea class="texto_ingresa" cols="30" rows="10" placeholder="¡Ingrese el Texto Aqui!"></textarea>
+            <div>
+                <h6 class="advertencia">¡Solo letras minusculas y sin acentos por favor!</h6>
+            </div>
+            <div class="botones">
+                  <button class="boton_encriptar" onclick="botonEncriptar()">Encriptar</button>
+                  <button class="boton_desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+              
+        <section>
+            <textarea class="texto_encriptado" cols="21" rows="16" placeholder="¡Ningun Mensaje fue Encontrado!"></textarea>
+              <div>
+                  <button class="boton_copiar" onclick="botonCopiar()">Copiar</button>
+              </div>
+        </section>
+    </main>
+
+    <footer> 
+        <p class="footer">Desarrollado por Isabel Ramírez</p> 
+    </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
